@@ -1,0 +1,22 @@
+.chart {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+  -webkit-box-shadow: 0px 0px 17px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px -13px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 17px -13px rgba(0,0,0,0.75);
+}
+
+.charttitle {
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width :600px) {
+  .chart {
+    height: 250px;
+  }
+
+}

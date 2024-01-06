@@ -1,0 +1,64 @@
+
+.widgetsmimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetsmlist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetsmlistitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.widgetsmuser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetsmusername {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.widgetsmusertitle {
+    color: #86939e;
+}
+
+
+.widgetsmbutton {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: rgb(209, 209, 239);
+    border-radius: 10px;
+    padding: 7px 10px;
+    gap: 5px;
+    cursor: pointer;
+    transition: all ease .5s;
+    font-size: 16px;
+
+    &:hover {
+        background: blue;
+    }
+}
+
+.widgetsmicon {
+    font-size: 18px !important;
+}
+
+@media screen and (max-width : 600px) {
+    .widgetsmbutton {
+        &:hover {
+           background:  rgb(209, 209, 239)
+        }
+    }
+}
+

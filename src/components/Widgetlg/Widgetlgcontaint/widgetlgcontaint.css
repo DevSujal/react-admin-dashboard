@@ -1,0 +1,45 @@
+.widgetlgimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetlgbutton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    cursor: pointer;
+    &.Approved {
+        background: rgb(206, 255, 206);
+        color: darkgreen;
+    }
+
+    &.Declined {
+        background: rgb(255, 211, 211);
+        color: red;
+    }
+
+    &.Pending {
+        background: rgb(217, 217, 255);
+        color: blue;
+    }
+}
+
+.widgetlguser {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.widgetlgdata, .widgetlgamount {
+    font-weight:lighter;
+}
+
+@media screen and (max-width : 600px) {
+    .widgetlgimg {
+        height: 30px;
+    }
+}

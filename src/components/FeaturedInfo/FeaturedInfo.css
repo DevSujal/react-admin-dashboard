@@ -1,0 +1,13 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+@media screen and (max-width : 600px) {
+    .featured {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

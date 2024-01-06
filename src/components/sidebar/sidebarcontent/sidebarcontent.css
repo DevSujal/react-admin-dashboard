@@ -1,0 +1,34 @@
+.sidebarmenu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: normal;
+}
+
+.sidebartitle {
+  font-size: 13px;
+  color: lightgray;
+}
+
+.sidebarlist {
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sidebarlistitem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+
+  transition: all ease 0.5s;
+
+  &.active,
+  &:hover {
+    background: rgb(236, 236, 251);
+  }
+}
